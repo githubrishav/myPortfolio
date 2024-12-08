@@ -52,12 +52,12 @@ const Navbar = () => {
 
 
                                                 <div className="flex flex-col bg text-white  mt-20 gap-4 items-center">
-                                                        <Link to="/" className='hover:bg-red-700 px-10 py-2' >Home</Link>
+                                                        <Link to="/" className='hover:bg-[#EEEEEE] transition duration-300 px-10 py-2' >Home</Link>
                                                         <Link to="/about" className=' px-10 py-2' >About</Link>
-                                                        <Link to="/skills" className='bg-red-500 px-10 py-2' >Skills</Link>
-                                                        <Link to="/experience" className='bg-red-500 px-10 py-2' >Experience</Link>
-                                                        <Link to="/projects" className='bg-red-500 px-10 py-2' >Projects</Link>
-                                                        <Link to="/connect" className='bg-red-500 px-10 py-2' >Connect</Link>
+                                                        <Link to="/skills" className='hover:bg-[#EEEEEE] transition duration-300px-10 py-2' >Skills</Link>
+                                                        <Link to="/experience" className='hover:bg-[#EEEEEE] transition duration-300 px-10 py-2' >Experience</Link>
+                                                        <Link to="/projects" className='hover:bg-[#EEEEEE] transition duration-300px-10 py-2' >Projects</Link>
+                                                        <Link to="/connect" className='hover:bg-[#EEEEEE] transition duration-300 px-10 py-2' >Connect</Link>
                                                 </div>
 
                                         </div>
