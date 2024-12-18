@@ -25,11 +25,11 @@ const Home = () => {
                                         <div className="">
                                                 <img src={dp} alt="img" />
                                         </div>
-                                        <div className=" text-center text-3xl">
+                                        <div className=" text-center text-3xl font-bold">
                                                 <p>Hi ! I am <br /> Rishav Kumar </p>
                                         </div>
 
-                                        <div className="text-2xl">
+                                        <div className="text-2xl font-medium">
                                                 <TypeAnimation
                                                         sequence={[
                                                                 
