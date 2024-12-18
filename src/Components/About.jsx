@@ -1,11 +1,7 @@
-import React from 'react'
+const About = () => (
+  <section id="about" className="h-screen flex items-center justify-center bg-gray-100">
+    <h2>About Me</h2>
+  </section>
+);
 
-const About = () => {
-  return (
-    <div>
-        about
-    </div>
-  )
-}
-
-export default About
+export default About;

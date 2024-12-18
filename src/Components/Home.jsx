@@ -3,16 +3,19 @@ import React from 'react'
 
 const Home = () => {
         return (
-                <div className=" hidden xl:block">
-                        <div className="xl:flex xl:justify-around xl:h-screen xl:items-center  ">
-                                <div className="xl:border xl:h-[30rem] xl:w-[30rem]">
-                                        <p>Animated text</p>
-                                </div>
-                                <div className="xl:border  xl:h-[30rem] xl:w-[30rem]">
-                                        <img src="" alt="img" />
+                <section id='/'>
+                        <div className=" hidden lg:block ">
+                                <div className="lg:flex lg:justify-around lg:h-screen lg:items-center  ">
+                                        <div className="lg:border lg:h-[30rem] lg:w-[30rem]">
+                                                <p>Animated text</p>
+                                        </div>
+                                        <div className="lg:border  lg:h-[30rem] lg:w-[30rem]">
+                                                <img src="" alt="img" />
+                                        </div>
                                 </div>
                         </div>
-                </div>
+                </section>
+
         )
 }
 

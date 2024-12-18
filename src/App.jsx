@@ -4,51 +4,38 @@ import Navbar from './Components/Navbar'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import About from './Components/About'
 import Skills from './Components/Skills'
-import Experience from './Components/Experience'
-import Connect from './Components/Connect'
 import Projects from './Components/Projects'
+import { useEffect } from 'react';
+import { scroller } from 'react-scroll';
+import Connect from './Components/Connect'
+
 
 
 const App = () => {
 
-  const router = createBrowserRouter([
 
-
-    {
-      path: "/",
-      element: <><Navbar /><Home/></>
-    },
-
-    {
-      path: "/about",
-      element: <><Navbar /> <About/></>
-    },
-    {
-      path: "/skills",
-      element: <><Navbar /> <Skills/>  </>
-    },
-    {
-      path: "/experience",
-      element: <><Navbar /> <Experience/>  </>
-    },
-    {
-      path: "/projects",
-      element: <><Navbar /> <Projects/></>
-    },
-    {
-      path: "/connect",
-      element: <><Navbar /> <Connect/></>
-    },
-
-
-  ])
-
+  useEffect(() => {
+    const hash = window.location.hash.substring(1); // Remove the `#`
+    if (hash) {
+      scroller.scrollTo(hash, {
+        smooth: true,
+        duration: 500,
+      });
+    }
+  }, []);
 
 
   return (
-    <>
-      <RouterProvider router={router} />
-    </>
+    <div className="bg-[#EEEEEE]">
+      <Navbar />
+      <Home />
+      <About />
+      <Skills />
+      <Projects />
+      <Connect/>
+
+    </div>
+
   )
 }
 
