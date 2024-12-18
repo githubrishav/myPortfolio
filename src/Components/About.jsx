@@ -1,7 +1,7 @@
 const About = () => (
   <section id="about" >
    
-      <div className=" flex items-center justify-center h-screen bg-[#3b1e54]">
+      <div className=" flex items-center justify-center h-screen bg-[#8245b85c]">
 
       </div>
     
