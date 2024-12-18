@@ -44,7 +44,7 @@ const Home = () => {
                                         <div className="">
                                                 <img src={dp} alt="img" />
                                         </div>
-                                        <div className=" text-center text-3xl font-semibold">
+                                        <div className=" text-center text-3xl font-bold">
                                                 <p>Hi ! I am <br /> Rishav Kumar </p>
                                         </div>
 
@@ -52,11 +52,11 @@ const Home = () => {
                                                 <TypeAnimation
                                                         sequence={[
 
-                                                                'A Software Developer',
-                                                                2000, // wait 1s before replacing "Mice" with "Hamsters"
-                                                                'A Designer',
+                                                                'A Software Developer...',
+                                                                2000, 
+                                                                'A Designer..',
                                                                 2000,
-                                                                'An Editor',
+                                                                'An Editor.',
                                                                 2000,
                                                         ]}
                                                         wrapper="span"
