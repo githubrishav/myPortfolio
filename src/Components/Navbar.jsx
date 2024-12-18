@@ -23,7 +23,7 @@ const Navbar = () => {
                     </div>
                     <div className="lg:hidden text-3xl">
                         <button onClick={toggle}>
-                            <IoMenu />
+                            <IoMenu className='hover:scale-125 transition duration-300 transform hover:text-[#502971]' />
                         </button>
                     </div>
                     <div className="hidden lg:flex xl:gap-[4rem]">

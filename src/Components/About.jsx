@@ -1,6 +1,10 @@
 const About = () => (
-  <section id="about" className="h-screen flex items-center justify-center bg-gray-100">
-    <h2>About Me</h2>
+  <section id="about" >
+   
+      <div className=" flex items-center justify-center h-screen bg-[#3b1e54]">
+
+      </div>
+    
   </section>
 );
 
