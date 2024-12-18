@@ -10,12 +10,31 @@ const Home = () => {
                         <div className=" ">
 
                                 <div className="hidden lg:block">
-                                        <div className="lg:flex lg:justify-around lg:h-screen lg:items-center  ">
-                                                <div className="lg:border lg:h-[30rem] lg:w-[30rem]">
-                                                        <p>Animated text</p>
+                                        <div className="lg:flex lg:justify-evenly lg:h-screen lg:items-center  ">
+                                                <div className="lg:flex lg:flex-col gap-12  ">
+                                                        <div className=" font-bold text-6xl ">
+                                                                <p>Hi ! I am <br /> Rishav Kumar </p>
+                                                        </div>
+                                                        <div className="text-3xl font-semibold font-mono">
+                                                                <TypeAnimation
+                                                                        sequence={[
+
+                                                                                'A Software Developer...',
+                                                                                2000, // wait 1s before replacing "Mice" with "Hamsters"
+                                                                                'A Designer..',
+                                                                                2000,
+                                                                                'An Editor.',
+                                                                                2000,
+                                                                        ]}
+                                                                        wrapper="span"
+                                                                        speed={20}
+                                                                        style={{ display: 'inline-block' }}
+                                                                        repeat={Infinity}
+                                                                />
+                                                        </div>
                                                 </div>
-                                                <div className="lg:border  lg:h-[30rem] lg:w-[30rem]">
-                                                        <img src="" alt="img" />
+                                                <div className=" lg:h-[30rem] lg:w-[30rem]">
+                                                        <img src={dp} alt="img" />
                                                 </div>
                                         </div>
 
@@ -25,16 +44,16 @@ const Home = () => {
                                         <div className="">
                                                 <img src={dp} alt="img" />
                                         </div>
-                                        <div className=" text-center text-3xl font-bold">
+                                        <div className=" text-center text-3xl font-semibold">
                                                 <p>Hi ! I am <br /> Rishav Kumar </p>
                                         </div>
 
-                                        <div className="text-2xl font-medium">
+                                        <div className="text-xl font-mono font-medium">
                                                 <TypeAnimation
                                                         sequence={[
-                                                                
+
                                                                 'A Software Developer',
-                                                                2000, 
+                                                                2000, // wait 1s before replacing "Mice" with "Hamsters"
                                                                 'A Designer',
                                                                 2000,
                                                                 'An Editor',
