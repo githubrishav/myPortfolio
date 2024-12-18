@@ -40,7 +40,7 @@ const Home = () => {
 
                                 </div>
 
-                                <div className="flex flex-col lg:hidden items-center h-screen justify-around">
+                                <div className="flex flex-col lg:hidden items-center  gap-6">
                                         <div className="">
                                                 <img src={dp} alt="img" />
                                         </div>
