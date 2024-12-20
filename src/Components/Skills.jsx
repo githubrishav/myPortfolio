@@ -7,6 +7,12 @@ import { FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiMui } from "react-icons/si";
 import { FaAngular } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
+import { IoLogoFirebase } from "react-icons/io5";
+import { FaNode } from "react-icons/fa6";
+
+
 
 
 
@@ -24,48 +30,79 @@ const Skills = () => {
       <div className="">
         <div className="flex flex-col">
           <p className='text-3xl lg:text-5xl text-center font-semibold lg:font-bold'>Skills</p>
-          <p className='text-2xl lg:text-3xl text-center font-medium lg:font-semibold mt-8 lg:mt-12'>Frontend Technologies</p>
 
 
-          <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 mt-6 lg:mt-12 gap-12  p-4">
-            <div className='flex flex-col items-center justify-around cursor-pointer hover:scale-125 duration-1000 '>
-              <FaHtml5 className='text-7xl lg:text-9xl  text-orange-600' />
-              <p className='font-medium lg:font-semibold lg:text-2xl  '>HTML5</p>
-            </div>
-            <div className='flex flex-col items-center justify-around cursor-pointer hover:scale-125 duration-1000 '>
-              <FaCss3Alt className='text-7xl lg:text-9xl  text-blue-500' />
-              <p className='font-medium lg:font-semibold lg:text-2xl'>CSS3</p>
-            </div>
-            <div className='flex flex-col items-center justify-around cursor-pointer hover:scale-125 duration-1000 '>
-              <TbBrandJavascript className='text-7xl lg:text-9xl  text-amber-400' />
 
-              <p className='font-medium lg:font-semibold lg:text-2xl'>JavaScript</p>
+
+          <p className='text-2xl lg:text-3xl text-center font-medium lg:font-semibold mt-8  lg:mt-24'>Frontend Technologies</p>
+
+
+          <div class="grid gap-2 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-6 lg:mx-64 lg:p-8   ">
+
+            <div className='flex flex-col items-center border-2 border-black justify-around cursor-pointer hover:scale-105 duration-1000  lg:mx-6  rounded-md '>
+              <FaHtml5 className='text-7xl lg:text-8xl  text-orange-600' />
+              <p className='font-medium lg:font-semibold lg:text-xl  '>HTML5</p>
             </div>
-            <div className='flex flex-col items-center justify-around cursor-pointer hover:scale-125 duration-1000'>
-              <FaReact className='text-7xl lg:text-9xl  text-blue-500' />
-              <p className='font-medium lg:font-semibold lg:text-2xl'>React.Js</p>
+            <div className='  lg:mx-6  rounded-md border-2 border-black flex  flex-col items-center justify-around cursor-pointer hover:scale-105 duration-1000 '>
+              <FaCss3Alt className='text-7xl lg:text-8xl  text-blue-500' />
+              <p className='font-medium lg:font-semibold lg:text-xl'>CSS3</p>
             </div>
-            <div className='flex flex-col items-center justify-around cursor-pointer hover:scale-125 duration-1000'>
-              <FaAngular className='text-7xl lg:text-9xl  text-red-500' />
-              <p className='font-medium lg:font-semibold lg:text-2xl'>Angular.Js</p>
+            <div className=' lg:mx-6  rounded-md border-2 border-black flex flex-col items-center justify-around cursor-pointer hover:scale-105 duration-1000 '>
+              <TbBrandJavascript className='text-7xl lg:text-8xl  text-amber-400' />
+
+              <p className='font-medium lg:font-semibold lg:text-xl'>JavaScript</p>
             </div>
-            <div className='flex flex-col items-center justify-around cursor-pointer hover:scale-125 duration-1000 '>
-              <FaBootstrap className='text-7xl lg:text-9xl  text-purple-700' />
-              <p className='font-medium lg:font-semibold lg:text-2xl'>Bootstrap</p>
+            <div className=' lg:mx-6  rounded-md border-2 border-black flex  flex-col items-center justify-around cursor-pointer hover:scale-105 duration-1000'>
+              <FaReact className='text-7xl lg:text-8xl  text-blue-500' />
+              <p className='font-medium lg:font-semibold lg:text-xl'>React.Js</p>
             </div>
-            <div className='flex flex-col items-center justify-around cursor-pointer hover:scale-125 duration-1000 '>
-              <SiMui className='text-7xl lg:text-9xl  text-blue-500' />
-              <p className='font-medium lg:font-semibold lg:text-2xl'>Material UI</p>
+            <div className=' lg:mx-6 rounded-md border-2 border-black flex flex-col items-center justify-around cursor-pointer hover:scale-105 duration-1000'>
+              <FaAngular className='text-7xl lg:text-8xl  text-red-500' />
+              <p className='font-medium lg:font-semibold lg:text-xl'>Angular.Js</p>
             </div>
-            <div className='flex flex-col items-center justify-around cursor-pointer hover:scale-125 duration-1000 '>
-              <RiTailwindCssFill className='text-7xl lg:text-9xl  text-cyan-400' />
-              <p className='font-medium lg:font-semibold lg:text-2xl'>Tailwind CSS</p>
+            <div className=' lg:mx-6 mx-10 rounded-md border shadow-lg border-black flex flex-col items-center justify-around cursor-pointer hover:scale-105 duration-1000 '>
+              <FaBootstrap className='text-7xl lg:text-8xl  text-purple-700' />
+              <p className='font-medium lg:font-semibold lg:text-xl'>Bootstrap</p>
+            </div>
+            <div className=' lg:mx-6 mx-10 rounded-md border-2 border-black flex flex-col items-center justify-around cursor-pointer hover:scale-105 duration-1000 '>
+              <SiMui className='text-6xl lg:text-8xl  text-blue-500' />
+              <p className='font-medium lg:font-semibold lg:text-xl'>Material UI</p>
+            </div>
+            <div className=' lg:mx-6 mx-10  rounded-md border-2 border-black flex flex-col items-center justify-around cursor-pointer hover:scale-105 duration-1000 '>
+              <RiTailwindCssFill className='text-6xl lg:text-8xl  text-cyan-400' />
+              <p className='font-medium lg:font-semibold lg:text-xl'>Tailwind CSS</p>
             </div>
           </div>
+
+
+          <p className='text-2xl lg:text-3xl text-center font-medium lg:font-semibold mt-8 lg:mt-12'>Backend Technologies</p>
+
+          <div class="grid gap-2 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-6 lg:mx-64 lg:p-8   ">
+
+            <div className='flex flex-col items-center border-2 border-black justify-around cursor-pointer hover:scale-105 duration-1000  lg:mx-6 mx-10 rounded-md '>
+              <FaNode className='text-6xl  lg:text-8xl  text-green-600' />
+              <p className='font-medium lg:font-semibold lg:text-xl  '>Node.Js</p>
+            </div>
+            <div className='  lg:mx-6 mx-10  rounded-md border-2 border-black flex  flex-col items-center justify-around cursor-pointer hover:scale-105 duration-1000 '>
+              
+              <SiExpress className='text-6xl lg:text-8xl' />
+
+              <p className='font-medium lg:font-semibold lg:text-xl'>Express.Js</p>
+            </div>
+            <div className=' lg:mx-6 mx-10  rounded-md border-2 border-black flex flex-col items-center justify-around cursor-pointer hover:scale-105 duration-1000 '>
+         
+              <SiMongodb className='text-6xl lg:text-8xl  text-green-700' />
+
+              <p className='font-medium lg:font-semibold lg:text-xl'>MongoDB</p>
+            </div>
+            <div className=' lg:mx-6 mx-10  rounded-md border-2 border-black flex  flex-col items-center justify-around cursor-pointer hover:scale-105 duration-1000 '>
+              <IoLogoFirebase className='text-6xl lg:text-8xl  text-yellow-400' />
+              <p className='font-medium lg:font-semibold lg:text-xl'>Firebase</p>
+            </div>
+          </div>
+
+
         </div>
-
-
-
 
 
       </div>
