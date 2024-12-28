@@ -17,9 +17,9 @@ const Navbar = () => {
     return (
         <>
             <div>
-                <div className="flex justify-between items-center p-3 lg:items-center lg:justify-evenly lg:p-6">
+                <div className="flex justify-between items-center p-3 lg:items-center lg:justify-evenly lg:p-6  z-50 sticky">
                     <div>
-                        <p className='font-semibold font-poppins text-4xl'>rishav</p>
+                        <p className='font-semibold font-poppins text-4xl text-[#3b1e54]'>rishav</p>
                     </div>
                     <div className="lg:hidden text-3xl">
                         <button onClick={toggle}>
@@ -27,24 +27,24 @@ const Navbar = () => {
                         </button>
                     </div>
                     <div className="hidden lg:flex xl:gap-[4rem]">
-                        <Link to="/" smooth={true} duration={500} className="cursor-pointer hover:  text-lg font-inter">
+                        <Link to="/" smooth={true} duration={500} className="cursor-pointer hover:underline  hover:text-[#3b1e54]  text-lg font-inter">
                             Home
                         </Link>
-                        <Link hashSpy={true} spy={true} to="about" smooth={true} duration={500} className="cursor-pointer text-lg font-inter">
+                        <Link hashSpy={true} spy={true} to="about" smooth={true} duration={500} className="hover:underline cursor-pointer text-lg font-inter hover:text-[#3b1e54] ">
                             About
                         </Link>
-                        <Link hashSpy={true} spy={true} to="skills" smooth={true} duration={500} className="cursor-pointer text-lg font-inter">
+                        <Link hashSpy={true} spy={true} to="skills" smooth={true} duration={500} className="cursor-pointer hover:underline text-lg font-inter hover:text-[#3b1e54] ">
                             Skills
                         </Link>
-                        <Link hashSpy={true} spy={true} to="projects" smooth={true} duration={500} className="cursor-pointer text-lg font-inter">
+                        <Link hashSpy={true} spy={true} to="projects" smooth={true} duration={500} className="cursor-pointer hover:underline text-lg font-inter hover:text-[#3b1e54] ">
                             Projects
                         </Link>
-                        <Link hashSpy={true} spy={true} to="connect" smooth={true} duration={500} className="cursor-pointer text-lg font-inter">
+                        <Link hashSpy={true} spy={true} to="connect" smooth={true} duration={500} className="cursor-pointer hover:underline text-lg font-inter hover:text-[#3b1e54] ">
                             Connect
                         </Link>
                     </div>
 
-                    <div className=" px-6 py-2 rounded-md lg:border lg:border-black hover:bg-[#3b1e54] hover:text-white lg:block hidden font-inter">
+                    <div className=" px-6 py-2 rounded-sm lg:border lg:border-black hover:bg-[#3b1e54] hover:text-white lg:block hidden font-inter">
                         <button className=''>Download CV</button>
                     </div>
                 </div>
