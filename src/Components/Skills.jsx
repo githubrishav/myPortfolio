@@ -43,36 +43,36 @@ const Skills = () => {
 
           <div class="grid gap-2 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-6 lg:mx-64 lg:p-8   ">
 
-            <div className='flex flex-col items-center lg:border lg:border-black justify-around cursor-pointer hover:scale-105 duration-1000  lg:mx-6  rounded-md '>
+            <div className='flex flex-col items-center lg:border lg:border-black justify-around cursor-pointer hover:scale-105 duration-300  lg:mx-6  rounded-md '>
               <FaHtml5 className='text-7xl lg:text-8xl  text-orange-600' />
               <p className='font-medium lg:font-semibold lg:text-xl  '>HTML5</p>
             </div>
-            <div className='  lg:mx-6  rounded-md lg:border lg:border-black flex  flex-col items-center justify-around cursor-pointer hover:scale-105 duration-1000 '>
+            <div className='  lg:mx-6  rounded-md lg:border lg:border-black flex  flex-col items-center justify-around cursor-pointer hover:scale-105 duration-300 '>
               <FaCss3Alt className='text-7xl lg:text-8xl  text-blue-500' />
               <p className='font-medium lg:font-semibold lg:text-xl'>CSS3</p>
             </div>
-            <div className=' lg:mx-6  rounded-md lg:border lg:border-black flex flex-col items-center justify-around cursor-pointer hover:scale-105 duration-1000 '>
+            <div className=' lg:mx-6  rounded-md lg:border lg:border-black flex flex-col items-center justify-around cursor-pointer hover:scale-105 duration-300 '>
               <TbBrandJavascript className='text-7xl lg:text-8xl  text-amber-400' />
 
               <p className='font-medium lg:font-semibold lg:text-xl'>JavaScript</p>
             </div>
-            <div className=' lg:mx-6  rounded-md lg:border lg:border-black flex  flex-col items-center justify-around cursor-pointer hover:scale-105 duration-1000'>
+            <div className=' lg:mx-6  rounded-md lg:border lg:border-black flex  flex-col items-center justify-around cursor-pointer hover:scale-105 duration-300'>
               <FaReact className='text-7xl lg:text-8xl  text-blue-500' />
               <p className='font-medium lg:font-semibold lg:text-xl'>React.Js</p>
             </div>
-            <div className=' lg:mx-6 rounded-md lg:border lg:border-black flex flex-col items-center justify-around cursor-pointer hover:scale-105 duration-1000'>
+            <div className=' lg:mx-6 rounded-md lg:border lg:border-black flex flex-col items-center justify-around cursor-pointer hover:scale-105 duration-300'>
               <FaAngular className='text-7xl lg:text-8xl  text-red-500' />
               <p className='font-medium lg:font-semibold lg:text-xl'>Angular.Js</p>
             </div>
-            <div className=' lg:mx-6 mx-10 rounded-md lg:border lg:border-black flex flex-col items-center justify-around cursor-pointer hover:scale-105 duration-1000 '>
+            <div className=' lg:mx-6 mx-10 rounded-md lg:border lg:border-black flex flex-col items-center justify-around cursor-pointer hover:scale-105 duration-300 '>
               <FaBootstrap className='text-7xl lg:text-8xl  text-purple-700' />
               <p className='font-medium lg:font-semibold lg:text-xl'>Bootstrap</p>
             </div>
-            <div className=' lg:mx-6 mx-10 rounded-md lg:border lg:border-black flex flex-col items-center justify-around cursor-pointer hover:scale-105 duration-1000 '>
+            <div className=' lg:mx-6 mx-10 rounded-md lg:border lg:border-black flex flex-col items-center justify-around cursor-pointer hover:scale-105 duration-300 '>
               <SiMui className='text-6xl lg:text-8xl  text-blue-500' />
               <p className='font-medium lg:font-semibold lg:text-xl'>Material UI</p>
             </div>
-            <div className=' lg:mx-6 mx-10  rounded-md lg:border lg:border-black flex flex-col items-center justify-around cursor-pointer hover:scale-105 duration-1000 '>
+            <div className=' lg:mx-6 mx-10  rounded-md lg:border lg:border-black flex flex-col items-center justify-around cursor-pointer hover:scale-105 duration-300 '>
               <RiTailwindCssFill className='text-6xl lg:text-8xl  text-cyan-400' />
               <p className='font-medium lg:font-semibold lg:text-xl'>Tailwind CSS</p>
             </div>
@@ -83,23 +83,23 @@ const Skills = () => {
 
           <div class="grid gap-2 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-6 lg:mx-64 lg:p-8   ">
 
-            <div className='flex flex-col items-center lg:border lg:border-black justify-around cursor-pointer hover:scale-105 duration-1000  lg:mx-6 mx-10 rounded-md '>
+            <div className='flex flex-col items-center lg:border lg:border-black justify-around cursor-pointer hover:scale-105 duration-300  lg:mx-6 mx-10 rounded-md '>
               <FaNode className='text-6xl  lg:text-8xl  text-green-600' />
               <p className='font-medium lg:font-semibold lg:text-xl  '>Node.Js</p>
             </div>
-            <div className='  lg:mx-6 mx-10  rounded-md lg:border lg:border-black flex  flex-col items-center justify-around cursor-pointer hover:scale-105 duration-1000 '>
+            <div className='  lg:mx-6 mx-10  rounded-md lg:border lg:border-black flex  flex-col items-center justify-around cursor-pointer hover:scale-105 duration-300 '>
 
               <SiExpress className='text-6xl lg:text-8xl' />
 
               <p className='font-medium lg:font-semibold lg:text-xl'>Express.Js</p>
             </div>
-            <div className=' lg:mx-6 mx-10  rounded-md lg:border lg:border-black flex flex-col items-center justify-around cursor-pointer hover:scale-105 duration-1000 '>
+            <div className=' lg:mx-6 mx-10  rounded-md lg:border lg:border-black flex flex-col items-center justify-around cursor-pointer hover:scale-105 duration-300 '>
 
               <SiMongodb className='text-6xl lg:text-8xl  text-green-700' />
 
               <p className='font-medium lg:font-semibold lg:text-xl'>MongoDB</p>
             </div>
-            <div className=' lg:mx-6 mx-10  rounded-md lg:border lg:border-black flex  flex-col items-center justify-around cursor-pointer hover:scale-105 duration-1000 '>
+            <div className=' lg:mx-6 mx-10  rounded-md lg:border lg:border-black flex  flex-col items-center justify-around cursor-pointer hover:scale-105 duration-300 '>
               <IoLogoFirebase className='text-6xl lg:text-8xl  text-yellow-400' />
               <p className='font-medium lg:font-semibold lg:text-xl'>Firebase</p>
             </div>
@@ -109,13 +109,13 @@ const Skills = () => {
 
           <div class="grid gap-2 grid-cols-2 md:grid-cols-3 lg:grid-cols-2 mt-6 lg:mx-64 lg:p-8   ">
 
-            <div className='flex flex-col items-center lg:border lg:border-black justify-around cursor-pointer hover:scale-105 duration-1000  lg:mx-6 mx-10 rounded-md '>
+            <div className='flex flex-col items-center lg:border lg:border-black justify-around cursor-pointer hover:scale-105 duration-300  lg:mx-6 mx-10 rounded-md '>
               
               <FaJava  className='text-6xl  lg:text-8xl  text-orange-700' />
               <p className='font-medium lg:font-semibold lg:text-xl  '>Java</p>
             </div>
 
-            <div className='flex flex-col items-center lg:border lg:border-black justify-around cursor-pointer hover:scale-105 duration-1000  lg:mx-6 mx-10 rounded-md '>
+            <div className='flex flex-col items-center lg:border lg:border-black justify-around cursor-pointer hover:scale-105 duration-300  lg:mx-6 mx-10 rounded-md '>
               
               <FaPython className='text-6xl  lg:text-8xl  text-yellow-500' />
 

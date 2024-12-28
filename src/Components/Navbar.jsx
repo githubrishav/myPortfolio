@@ -19,7 +19,7 @@ const Navbar = () => {
             <div>
                 <div className="flex justify-between items-center p-3 lg:items-center lg:justify-evenly lg:p-6">
                     <div>
-                        <p>rishav</p>
+                        <p className='font-semibold font-poppins text-4xl'>rishav</p>
                     </div>
                     <div className="lg:hidden text-3xl">
                         <button onClick={toggle}>
@@ -27,25 +27,25 @@ const Navbar = () => {
                         </button>
                     </div>
                     <div className="hidden lg:flex xl:gap-[4rem]">
-                        <Link to="/" smooth={true} duration={500} className="cursor-pointer">
+                        <Link to="/" smooth={true} duration={500} className="cursor-pointer hover:  text-lg font-inter">
                             Home
                         </Link>
-                        <Link hashSpy={true} spy={true} to="about" smooth={true} duration={500} className="cursor-pointer">
+                        <Link hashSpy={true} spy={true} to="about" smooth={true} duration={500} className="cursor-pointer text-lg font-inter">
                             About
                         </Link>
-                        <Link hashSpy={true} spy={true} to="skills" smooth={true} duration={500} className="cursor-pointer">
+                        <Link hashSpy={true} spy={true} to="skills" smooth={true} duration={500} className="cursor-pointer text-lg font-inter">
                             Skills
                         </Link>
-                        <Link hashSpy={true} spy={true} to="projects" smooth={true} duration={500} className="cursor-pointer">
+                        <Link hashSpy={true} spy={true} to="projects" smooth={true} duration={500} className="cursor-pointer text-lg font-inter">
                             Projects
                         </Link>
-                        <Link hashSpy={true} spy={true} to="connect" smooth={true} duration={500} className="cursor-pointer">
+                        <Link hashSpy={true} spy={true} to="connect" smooth={true} duration={500} className="cursor-pointer text-lg font-inter">
                             Connect
                         </Link>
                     </div>
 
-                    <div className="lg:border px-6 py-2 rounded-md hover:bg-[#3b1e54] hover:text-white lg:block hidden">
-                        <button>Download CV</button>
+                    <div className=" px-6 py-2 rounded-md lg:border lg:border-black hover:bg-[#3b1e54] hover:text-white lg:block hidden font-inter">
+                        <button className=''>Download CV</button>
                     </div>
                 </div>
                 <hr className="border-gray-300 mx-32 hidden lg:block" />
